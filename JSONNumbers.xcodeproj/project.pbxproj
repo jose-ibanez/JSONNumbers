@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19A6653319EDBF930043368B /* JSONNumbers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19A6653219EDBF930043368B /* JSONNumbers.h */; };
 		19A6653519EDBF930043368B /* JSONNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A6653419EDBF930043368B /* JSONNumbers.m */; };
+		19A6654719EDBFA20043368B /* JSONNumberTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A6654619EDBFA20043368B /* JSONNumberTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		19A6653419EDBF930043368B /* JSONNumbers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONNumbers.m; sourceTree = "<group>"; };
 		19A6653A19EDBF930043368B /* JSONNumbersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONNumbersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A6653D19EDBF930043368B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A6654619EDBFA20043368B /* JSONNumberTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONNumberTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		19A6653B19EDBF930043368B /* JSONNumbersTests */ = {
 			isa = PBXGroup;
 			children = (
+				19A6654619EDBFA20043368B /* JSONNumberTest.m */,
 				19A6653C19EDBF930043368B /* Supporting Files */,
 			);
 			path = JSONNumbersTests;
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A6654719EDBFA20043368B /* JSONNumberTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
